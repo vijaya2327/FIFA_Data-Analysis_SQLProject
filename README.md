@@ -66,7 +66,9 @@ FIFA_Data_Analysis_Project/
 ├── queries.sql                 → SQL queries used for analysis
 ├── fifa.csv                    → Dataset
 └── README.md                   → Project summary
-✅ Outcome
+
+
+✅**** Outcome****
 
 This project demonstrates how SQL and PostgreSQL can be used to transform raw sports data into structured insights for analysis and data-driven decision-making.****
 
