@@ -1,10 +1,10 @@
-⚽ FIFA Players Data Analysis Using PostgreSQL and SQL
+⚽ **FIFA Players Data Analysis Using PostgreSQL and SQL**
 
 📌 **Project Overview**
 
 This project analyzes the FIFA Players dataset using PostgreSQL and SQL to extract meaningful insights from player data. The dataset was stored in a relational database and queried to study player distribution, salaries, performance ratings, and club-level statistics.
 
-🛠️ **Tools Used**
+🛠️** Tools Used**
 
 🐘 PostgreSQL
 
@@ -12,20 +12,7 @@ This project analyzes the FIFA Players dataset using PostgreSQL and SQL to extra
 
 📄 FIFA Players Dataset (CSV)
 
-🗄️ ⚽ FIFA Players Data Analysis Using PostgreSQL and SQL
-📌 Project Overview
-
-This project analyzes the FIFA Players dataset using PostgreSQL and SQL to extract meaningful insights from player data. The dataset was stored in a relational database and queried to study player distribution, salaries, performance ratings, and club-level statistics.
-
-🛠️ Tools Used
-
-🐘 PostgreSQL
-
-💻 SQL
-
-📄 FIFA Players Dataset (CSV)
-
-🗄️ **Database Setup**
+🗄️** Database Setup**
 
 📊 Created a table to store the FIFA dataset.
 
@@ -60,15 +47,12 @@ This project analyzes the FIFA Players dataset using PostgreSQL and SQL to extra
 📅 Player joining trends (date-wise and year-wise)
 
 📁 **Project Structure**
-
 FIFA_Data_Analysis_Project/
 ├── Documentation.pdf / .docx   → Detailed report
 ├── queries.sql                 → SQL queries used for analysis
 ├── fifa.csv                    → Dataset
 └── README.md                   → Project summary
 
+✅** Outcome**
 
-✅**** Outcome****
-
-This project demonstrates how SQL and PostgreSQL can be used to transform raw sports data into structured insights for analysis and data-driven decision-making.****
-
+This project demonstrates how SQL and PostgreSQL can be used to transform raw sports data into structured insights for analysis and data-driven decision-making.
