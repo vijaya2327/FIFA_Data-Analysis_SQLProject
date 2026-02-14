@@ -6,43 +6,28 @@ This project analyzes the FIFA Players dataset using PostgreSQL and SQL to extra
 🛠️ Tools Used
 
 🐘 PostgreSQL
-
 💻 SQL
-
 📄 FIFA Players Dataset (CSV)
 
 🗄️ Database Setup
 
 📊 Created a table to store the FIFA dataset.
-
 ⚙️ Configured date format (ISO, DMY) to match dataset structure.
-
 📥 Imported CSV data into PostgreSQL using the COPY command.
-
 ✅ Verified schema and loaded records before analysis.
-
 📈 Analysis Performed
 
 SQL queries were written to analyze:
 
 👥 Total number of players
-
 🌍 Nationality distribution
-
 🏆 Top countries by player count
-
 💰 Wage statistics (Total, Average, Standard Deviation)
-
 ⭐ Highest and lowest paid players
-
 📊 Best and worst overall ratings
-
 🏟️ Club performance based on aggregated ratings
-
 🦶 Preferred foot distribution
-
 🔢 Jersey number frequency
-
 📅 Player joining trends (date-wise and year-wise)
 
 📁 Project Structure
