@@ -1,5 +1,3 @@
-
-
 -- FIFA DATA ANALYSIS PROJECT - POSTGRESQL
 
 
@@ -12,8 +10,8 @@ CREATE TABLE fifa (
     overall INT,
     potential INT,
     club VARCHAR(50),
-    value VARCHAR(255),
-    wage numeric,
+    value NUMERIC,
+    wage INT,
     preferred_foot VARCHAR(255),
     jersey_number INT,
     joined DATE,
@@ -95,7 +93,7 @@ select preferred_foot,count(*) as cnt from fifa group by preferred_foot;
 
 
 -- Which jersey number is the luckiest?
-select jersey_number,count(*) as cnt from fifa group by jersey_number order by cnt limit 1;
+select jersey_number,count(*) as cnt from fifa group by jersey_number order by cnt desc limit 1;
 
 
 -- What is the frequency distribution of nationalities among players whose club name starts with M?
@@ -104,8 +102,7 @@ LIKE 'M%'group by nationality order by freq_dis DESC;
 
 
 -- How many players have joined their respective clubs in the date range 20 May 2018 to 10 April 2019(both inclusive)?
-select count(*) as play_join from fifa where to_date(joined,'DD-MM-YYYY') 
-between date '20 May 2018' and date '10 April 2019';
+select count(*) as play_join from fifa where joined between '20 May 2018' and  '10 April 2019';
 
 
 -- How many players have joined their respective clubs date wise?
@@ -113,15 +110,5 @@ select joined,count(*) as play_join from fifa group by joined order by joined;
 
 
 -- How many players have joined their respective clubs yearly?
-select extract(year from to_date(joined,'DD-MM-YYYY')) as year, 
-count(*) AS play_join_year from fifa group by year order by year;
-
-
-
-
-
-
-
-
-
-
+SELECT EXTRACT(YEAR FROM joined) AS year, COUNT(*) AS play_join_year
+FROM fifa GROUP BY year ORDER BY year;
