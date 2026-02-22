@@ -1,10 +1,10 @@
 # ⚽ FIFA Data Analysis Project — PostgreSQL
 A SQL-based data analysis project using the FIFA Players dataset. This project demonstrates how to store, manage, and analyze real-world sports data using  PostgreSQL — extracting meaningful insights about player performance, wages, nationalities, and club statistics.
 
-# 📌 Project Overview
+📌 Project Overview
 The FIFA Players dataset contains extensive information about professional football players including their personal details, performance ratings, salaries, nationalities, and club associations. This project uses SQL queries to transform raw data into actionable insights.
 
-# 🗂️ Repository Structure
+🗂️ Repository Structure
 fifa-data-analysis/
 │
 ├── Fifa.csv                    # Raw FIFA players dataset
@@ -12,16 +12,19 @@ fifa-data-analysis/
 ├── fifa_project.docx           # Project problem statement & documentation
 └── README.md                   # Project overview (this file)
 
-# 🛠️ Tech Stack
+🛠️ Tech Stack
 
 Database: PostgreSQL
+
 Language: SQL
+
 Tool: pgAdmin / psql terminal
 
 
-# 📋 Dataset Description
+📋 Dataset Description
 The dataset contains 15 columns covering player details:
-# Column              Data Type           Description
+Column              Data Type           Description
+
   id                   INT              Unique player ID
   name                TEXT              Player name
   age                  INT              Player age
@@ -38,7 +41,7 @@ height               VARCHAR            Player height
 weight                 INT              Player weight
 penalties              INT              Penalty skill rating
 
-# ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 1. Clone the Repository:
 bashgit clone https://github.com/vijaya2327/fifa-data-analysis.git
 cd fifa-data-analysis
@@ -52,7 +55,7 @@ bash\\COPY public.fifa FROM '/your/path/to/Fifa.csv' CSV HEADER;
 
 
 
-# 🔍 Analysis Queries
+ 🔍 Analysis Queries
 The project answers the following business questions:
 #            Question
 1            How many players are in the dataset?
@@ -70,7 +73,7 @@ The project answers the following business questions:
 13           How many players joined their clubs date-wise?
 14           How many players joined their clubs year-wise?
 
-# 📊 Key Insights
+📊 Key Insights
 
 1.The dataset provides a comprehensive view of player distribution across multiple nationalities and clubs.
 2.Wage analysis reveals significant variation between top-earning and lowest-earning players.
@@ -78,7 +81,7 @@ The project answers the following business questions:
 4.Recruitment trend analysis shows joining patterns across years.
 
 
-#👤 Author
+👤 Author
 Vijaya Kumari
 Data Analysis Project — PostgreSQL
 📅 Feb 2026
